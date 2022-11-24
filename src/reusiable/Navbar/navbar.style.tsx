@@ -15,6 +15,9 @@ export default makeStyles(() => ({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-between",
+        '@media(max-width: 1330px)': {
+            padding: "20px",
+        },
         '@media(max-width: 650px)': {
             padding: "17px 25px",
         }
@@ -39,8 +42,11 @@ export default makeStyles(() => ({
     mobileMenu: {
         display: "none",
         position: "absolute",
-        right: "50px",
-        top: "90px",
+        right: "0",
+        top: "0",
+        height: "100vh",
+        width: "100%",
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
         '@media(max-width: 650px)': {
             display: "block",
         }
@@ -49,20 +55,27 @@ export default makeStyles(() => ({
         display: "none",
         '@media(max-width: 650px)': {
             display: "block",
+            zIndex: 100,
         },
     },
     navItem: {
         margin: "0 20px",
         cursor: "pointer",
+        color: "#fff",
+        textDecoration: "none",
         '@media(max-width: 650px)': {
-            margin: "20px 0",
+            position: "absolute",
+            right: "90px",
+            top: "50px",
         }
     },
     activeNavItem: {
         margin: "0 20px",
         cursor: "pointer",
+        color: "#bf0000",
+        textDecoration: "none",
         '@media(max-width: 650px)': {
             margin: "20px 0",
         }
     }
-}))
+}));

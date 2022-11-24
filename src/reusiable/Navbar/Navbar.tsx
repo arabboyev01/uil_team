@@ -7,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import {NAV_DATA} from "./navData";
 import AnimatedText from "../AnimateText/AnimateText";
 import { useRouter } from "next/router";
+import Link from "next/link";
 export default function Navbar(){
     const classes = useStyles();
     const [mobileMenu, setMobileMenu] = useState(false);
@@ -21,7 +22,7 @@ export default function Navbar(){
                 <Box className={mobileMenu ? classes.mobileMenu : classes.collapseMenu}>
                     {NAV_DATA.map(item =>
                       <AnimatedText  key={item.id} delay={item.transition}>
-                        <Typography className={router.pathname === item.link ? classes.activeNavItem : classes.navItem}>{item.name}</Typography>
+                          <Link href={item.link}  className={router.pathname === item.link ? classes.activeNavItem : classes.navItem}>{item.name}</Link>
                       </AnimatedText>
                     )}
                 </Box>

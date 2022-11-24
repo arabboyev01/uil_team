@@ -8,6 +8,7 @@ export default makeStyles(() => ({
         fontSize: "14px",
         lineHeight: "36px",
         padding: "1rem 3rem",
+        textDecoration: "none !important",
         '@media(max-width: 650px)': {
             lineHeight: "25px",
             padding: "0.6rem 2rem",
