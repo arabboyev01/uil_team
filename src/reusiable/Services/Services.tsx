@@ -9,12 +9,11 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import CreateContextApi from "../../context/createContext";
 import ServiceFuntions from "./service.funtions";
 import Link from "next/link";
-import BgEffect from "../BgEffect/BgEffect";
 export default function Services(){
     const changeCtx = useContext(CreateContextApi);
     const {changeServices} = changeCtx;
     const classes = useStyles();
-    const handleChangeServices = function(btnId: number){
+    const handleChangeServices = function(btnId: any){
         const filteredData = ServiceFuntions(btnId);
         // @ts-ignore
         changeServices(filteredData);

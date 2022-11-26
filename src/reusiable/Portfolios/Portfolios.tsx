@@ -15,6 +15,7 @@ export default function Portfolios(){
         const filteredData = PortfolioFilterData(btnId);
         // @ts-ignore
         changeValue(filteredData);
+        window.localStorage.setItem("id",btnId)
     }
     return(
         <Box className={classes.portfolioWrapper}>
