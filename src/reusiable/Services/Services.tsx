@@ -27,10 +27,12 @@ export default function Services(){
                 </Box>
                 <Box className={classes.serviceItems}>
                     { SERVICE_DATA.map(item =>
+                        <Link href="/single-service" style={{ textDecoration: 'none' }}>
                         <Box className={classes.serviceItem} key={item.id} onClick={() => handleChangeServices(item.id)}>
                             <Typography className={classes.itemName}>{item.name}</Typography>
                             <Image src={item.icons.src} alt="icons" width={55} height={55} />
                         </Box>
+                        </Link>
                     )}
                     <Link href="/services" style={{ textDecoration: 'none' }}>
                       <Box className={classes.pageLink}>

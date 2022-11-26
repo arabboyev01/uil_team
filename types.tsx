@@ -9,6 +9,7 @@ export interface SERVICE_DATA_TYPES {
     name: string,
     icons: any,
     category: number,
+    image: any;
 }
 export interface PORTFOLIO_DATA_TYPES {
     id: number,

@@ -5,6 +5,7 @@ export default makeStyles(() => ({
         position: "absolute",
         top: "194px",
         left: "40%",
+        maxWidth: "500px",
         '@media(max-width: 900px)': {
             top: "104px",
             left: "25%",
