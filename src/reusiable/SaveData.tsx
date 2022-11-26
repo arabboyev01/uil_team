@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-export default function saveData(data: any, secondData: any, setData: any,): void{
+export default function saveData(data: any, secondData: any, setData: any,setInitID: any): void{
     const [initData, setInitData] = useState([]);
     useEffect(() => {
         const myId = typeof window !== "undefined" ? window.localStorage.getItem("id") : undefined;

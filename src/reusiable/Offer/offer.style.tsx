@@ -38,6 +38,7 @@ export default makeStyles(() => ({
         borderRight: ".5px solid rgba(255, 255, 255, 0.5)",
         '@media(max-width: 650px)': {
             borderRight: "none",
+            alignItems: "start",
         }
     },
     images: {
