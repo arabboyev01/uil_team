@@ -15,6 +15,8 @@ export interface PORTFOLIO_DATA_TYPES {
     image: any,
     category: number,
     name: string,
+    description: string,
+    link: string,
 }
 export interface TESTEMONIAL_DATA_TYPES {
         id: number,

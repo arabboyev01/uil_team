@@ -6,6 +6,7 @@ import useStyles from "./single.style";
 import PortfolioItems from "./PortfolioItems/PortfolioItems";
 import saveData from "../../reusiable/SaveData";
 import {PORTFOLIO_DATA} from "../../reusiable/Portfolios/portfolio.data";
+import Footer from "../../reusiable/Footer/Footer";
 export default function SinglePortfolio({data}: any){
     const classes = useStyles();
     const [mainData, setMainData] = useState([]);
@@ -18,6 +19,7 @@ export default function SinglePortfolio({data}: any){
             <Box className={classes.contentWrapper}>
                 <PortfolioItems data={mainData}/>
             </Box>
+            <Footer />
         </Box>
     )
 }
