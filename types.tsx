@@ -33,6 +33,7 @@ export interface MENTORS_DATA_TYPES {
     name: string,
     image: any,
     category: number,
+    bgImage: any,
 }
 export interface EFFORT_DATA_TYPES  {
     id: number,

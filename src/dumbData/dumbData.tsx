@@ -9,6 +9,10 @@ import mobileIcon from "../../public/assets/icons/phone.png";
 import laptopIcon from "../../public/assets/icons/laptop.png";
 import testingIcon from "../../public/assets/icons/testing.png";
 import designIcon from "../../public/assets/icons/design.png";
+import image1 from "../../public/assets/services/web.png";
+import image2 from "../../public/assets/services/mobile.png";
+import image3 from "../../public/assets/services/dizayn.png";
+import image4 from "../../public/assets/services/social-marketing.png";
 export const ABOUT_BROCHURE = {
     subTitle: "Qisqa tanishtiruv.",
     title: "Eng ilg'or Software agentstva va IT yechim albatta UILda.",
@@ -29,24 +33,28 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         name: "Abbosbek Arabboev",
         image: mentor1,
         category: 0,
+        bgImage:image1 ,
     },
     {
         id: 1,
         name: "Abdulboriy Nomonov",
         image: mentor2,
         category: 1,
+        bgImage: image2,
     },
     {
         id: 2,
         name: "Behzodbek  Arabboev",
         image: mentor3,
         category: 2,
+        bgImage: image3,
     },
     {
         id: 3,
         name: "Umidjon Xusniddin o'g'li",
         image: mentor4,
         category: 3,
+        bgImage: image4,
     },
 ]
 
