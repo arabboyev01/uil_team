@@ -15,7 +15,7 @@ export default function Sidebar({handleFilterData, initId}: any){
             )}
         </Box>
             <Box className={classes.contact}>
-                <Image src={icon.src} alt={"icon"} width={85} height={85}/>
+                <Image src={icon} alt={"icon"} width={85} height={85}/>
                 <Typography className={classes.title}>Eng yuqori sifat uyg`&#39;`unligi</Typography>
                 <a href="tel: +998999883500" className={classes.call}>(99) 988-35-00</a>
             </Box>

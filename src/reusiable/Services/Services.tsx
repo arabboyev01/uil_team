@@ -30,7 +30,7 @@ export default function Services(){
                         <Link href="/single-service" style={{ textDecoration: 'none' }} key={item.id}>
                         <Box className={classes.serviceItem} onClick={() => handleChangeServices(item.id)}>
                             <Typography className={classes.itemName}>{item.name}</Typography>
-                            <Image src={item.icons.src} alt="icons" width={55} height={55} />
+                            <Image src={item.icons} alt="icons" width={55} height={55} />
                         </Box>
                         </Link>
                     )}

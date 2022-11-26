@@ -18,7 +18,7 @@ export default function SingleMentor({data}: any) {
                 <Box key={item.id}>
                     <PageHeader text={item.name} image={item.bgImage}/>
                     <Box className={classes.singleContent} key={item.id}>
-                        <Image src={item.image.src} alt="image" width={350} height={350} className={classes.image}/>
+                        <Image src={item.image} alt="image" width={350} height={350} className={classes.image}/>
                         <Box className={classes.boxContent}>
                             <Typography className={classes.name}>{item.name}</Typography>
                             <Typography className={classes.job}>{item.job}</Typography>

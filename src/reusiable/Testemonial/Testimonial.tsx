@@ -18,7 +18,7 @@ export default function Testimonial(){
                         <Box className={classes.singleTestimonial} key={item.id}>
                             <Typography className={classes.description}>{item.description}</Typography>
                             <Box className={classes.testimonialFooter}>
-                                <Image src={item.image.src} alt="image" width={90} height={90}/>
+                                <Image src={item.image} alt="image" width={90} height={90}/>
                                 <Typography className={classes.name}>{item.name}</Typography>
                                 <Typography className={classes.footerTitle}>{item.title}</Typography>
                             </Box>

@@ -4,8 +4,6 @@ import Navbar from "../../reusiable/Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Services from "../../reusiable/Services/Services";
 import Portfolios from "../../reusiable/Portfolios/Portfolios";
-import {useContext} from "react";
-import CreateContextApi from "../../context/createContext";
 import Brochure from "../../reusiable/Brochure/Brochure";
 import {BROCHURE_DATA} from "../../reusiable/Brochure/brochure.data";
 import Testimonial from "../../reusiable/Testemonial/Testimonial";

@@ -44,7 +44,7 @@ export default function SingleService({data}: any){
                         <Sidebar handleFilterData={handleFilterData} initId={initId}/>
                     </Box>
                     <Box className={classes.boxContents}>
-                        <Image src={item.mainImage.src} alt="image" width={ query ? 350 : 900} height={query ? 300 : 500}/>
+                        <Image src={item.mainImage} alt="image" width={ query ? 350 : 900} height={query ? 300 : 500}/>
                         <Typography className={classes.subTitle}>{item.name}</Typography>
                         <Typography className={classes.desc}>{item.desc}</Typography>
                     </Box>
