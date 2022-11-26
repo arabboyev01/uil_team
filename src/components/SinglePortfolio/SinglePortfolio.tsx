@@ -4,23 +4,12 @@ import mainBg from "../../../public/assets/images/serviceBg.png";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";
 import useStyles from "./single.style";
 import PortfolioItems from "./PortfolioItems/PortfolioItems";
+import saveData from "../../reusiable/SaveData";
 import {PORTFOLIO_DATA} from "../../reusiable/Portfolios/portfolio.data";
 export default function SinglePortfolio({data}: any){
     const classes = useStyles();
-    const myId = typeof window !== "undefined" ? window.localStorage.getItem("id") : undefined;
-    const [initData, setInitData] = useState([]);
     const [mainData, setMainData] = useState([]);
-    console.log(data);
-    useEffect(() => {
-        const filtered = PORTFOLIO_DATA.filter((item: any) => item.category == myId);
-        // @ts-ignore
-        setInitData(filtered)
-    }, [])
-    console.log(initData);
-    useEffect(() => {
-        const mainData = data === undefined ? initData : data;
-        setMainData(mainData)
-    }, [ myId, initData]);
+    saveData(data,PORTFOLIO_DATA,setMainData);
     return(
         <Box>
             {mainData.map((item: { name: any; }) =>

@@ -17,6 +17,7 @@ export default function Services(){
         const filteredData = ServiceFuntions(btnId);
         // @ts-ignore
         changeServices(filteredData);
+        window.localStorage.setItem("id",btnId);
     }
     return(
         <Box className={classes.serviceWrapper}>
