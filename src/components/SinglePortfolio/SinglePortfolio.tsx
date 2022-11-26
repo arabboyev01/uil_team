@@ -14,7 +14,7 @@ export default function SinglePortfolio({data}: any){
     return(
         <Box>
             {mainData.map((item: { name: any; }) =>
-                <PageHeader text={item.name} image={mainBg} />
+                <PageHeader text={item.name} image={mainBg} key={item.name}/>
             )}
             <Box className={classes.contentWrapper}>
                 <PortfolioItems data={mainData}/>

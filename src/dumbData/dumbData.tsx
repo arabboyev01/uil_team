@@ -1,6 +1,6 @@
 import brochure1 from "../../public/assets/images/about-brochure.png";
 import brochure2 from "../../public/assets/images/happy-customers.png";
-import mentor1 from "../../public/assets/mentors/mentor1.png"
+import mentor1 from "../../public/assets/mentors/mentor1.jpg"
 import mentor2 from "../../public/assets/mentors/mentor2.png"
 import mentor3 from "../../public/assets/mentors/mentor3.png"
 import mentor4 from "../../public/assets/mentors/mentor4.png"
@@ -34,6 +34,15 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         image: mentor1,
         category: 0,
         bgImage:image1 ,
+        job: "Frontend Dasturchi",
+        desc: "Salom! Mening ismim Abbos va men internetda yashovchi narsalarni yaratishni yoqtiraman. Mening veb-saytlarni ishlab chiqishga bo'lgan qiziqishim 2017 yilda o'zimning ijtimoiy veb-saytlarim mavzularini yaratishga qaror qilganimda boshlangan edi - ma'lum bo'lishicha, maxsus reblog tugmachasini buzish menga HTML va CSS haqida ko'p narsalarni o'rgatgan!\n" +
+            "\n" +
+            "Bugungi kunga shoshiling va men reklama agentligida, startapda, yirik korporatsiyada va talabalar boshchiligidagi dizayn studiyasida ishlash sharafiga muyassar bo'ldim. Bugungi kunda mening asosiy e'tiborim turli mijozlar uchun Upstatement-da qulay, inklyuziv mahsulotlar va raqamli tajribalarni yaratishdir. ",
+        skills: [
+            {
+                name: '',
+            }
+        ],
     },
     {
         id: 1,
@@ -41,6 +50,25 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         image: mentor2,
         category: 1,
         bgImage: image2,
+        job: "Frontend Dasturchi",
+        desc: "",
+        skills: [
+            {
+                type: 'Javascript',
+            },
+            {
+                type: 'Typescript',
+            },
+            {
+                type: 'Next Js',
+            },
+            {
+                type: 'React Js',
+            },
+            {
+                type: 'React Native',
+            },
+        ],
     },
     {
         id: 2,
@@ -48,6 +76,13 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         image: mentor3,
         category: 2,
         bgImage: image3,
+        job: "Frontend Dasturchi",
+        desc: "",
+        skills: [
+            {
+                name: '',
+            }
+        ],
     },
     {
         id: 3,
@@ -55,6 +90,13 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         image: mentor4,
         category: 3,
         bgImage: image4,
+        job: "Frontend Dasturchi",
+        desc: "",
+        skills: [
+            {
+                name: '',
+            }
+        ],
     },
 ]
 

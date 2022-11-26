@@ -10,7 +10,7 @@ export default function ContactInfo(){
         <Box className={classes.contactInfoWrapper}>
             <Box className={classes.contactContentWrapper}>
                 <Box className={classes.contactInfo}>
-                    <Typography className={classes.contactHead}>Biz bilan 24/7 bog'laning.</Typography>
+                    <Typography className={classes.contactHead}>Biz bilan 24/7 bog&apos;laning.</Typography>
                     <a href="tel:+998999883500" className={classes.phone}>(99) 988-35-00</a> <br/>
                     <a href="tel: +998972343407" className={classes.phone}>(97) 234-34-07</a>
                 </Box>

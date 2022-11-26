@@ -18,7 +18,7 @@ export default function SingleService({data}: any){
     const [callData, setCallData] = useState([]);
     const [initId, setInitId] = useState(myId);
 
-    saveData(data,SERVICE_DATA,setMainData, initId);
+    saveData(data,SERVICE_DATA,setMainData);
 
     const handleFilterData = function(btnId: any){
         setInitId(btnId);

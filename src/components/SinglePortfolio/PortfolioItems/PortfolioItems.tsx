@@ -15,7 +15,7 @@ export default function PortfolioItems({data}:  any){
                 <Box className={classes.itemDesc}>
                     <Typography className={classes.itemTitle}>{item.name}</Typography>
                     <Typography className={classes.itemdesc}>{item.description}</Typography>
-                    <a href={item.link} className={classes.goBTn} target="_blank">Saytga o'tish <ArrowRightAltIcon /></a>
+                    <a href={item.link} className={classes.goBTn} target="_blank" rel="noreferrer" >Saytga o`&#39;`tish <ArrowRightAltIcon /></a>
                 </Box>
                 </Box>
                     <MainTitle title="Proyektda qatnashgan dastruchilarimiz" />

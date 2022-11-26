@@ -23,8 +23,8 @@ export default function Mentors(){
                 </Box>
                 <Box className={classes.mentors}>
                     {MENTORS_DATA.map(item =>
-                        <Link href="/mentor">
-                           <Box onClick={() => handleSingleMentor(item.id)} key={item.id} className={classes.mentor} style={{backgroundImage: `url(${item.image.src})`}}></Box>
+                        <Link href="/mentor" key={item.id}>
+                           <Box onClick={() => handleSingleMentor(item.id)}  className={classes.mentor} style={{backgroundImage: `url(${item.image.src})`}}></Box>
                         </Link>
                     )}
                 </Box>

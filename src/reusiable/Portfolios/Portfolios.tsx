@@ -30,11 +30,10 @@ export default function Portfolios(){
                 </Box>
                 <Box className={classes.portfolioItems}>
                     {PORTFOLIO_DATA.map(item =>
-                        <Link href="/single-portfolio" style={{ textDecoration: 'none' }}>
+                        <Link href="/single-portfolio" style={{ textDecoration: 'none' }} key={item.id}>
                         <Box
                             onClick={() => handleGetSingleData(item.id)}
                             className={classes.portfolioItem}
-                            key={item.id}
                             style={{backgroundImage: `url(${item.image.src})`}}
                         >
                         </Box>

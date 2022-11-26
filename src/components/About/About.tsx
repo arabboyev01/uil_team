@@ -12,11 +12,8 @@ import CreateContextApi from "../../context/createContext";
 import AnimatedText from "../../reusiable/AnimateText/AnimateText";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";
 import aboutBg from "../../../public/assets/images/about.png";
-import BgEffect from "../../reusiable/BgEffect/BgEffect";
 export default function About(){
     const classes = useStyles();
-    const ctxSetValue = useContext(CreateContextApi);
-    const {mentor} = ctxSetValue;
     return(
         <Box className={classes.aboutWrapper}>
               <PageHeader text="Biz haqimizda" image={aboutBg} />
