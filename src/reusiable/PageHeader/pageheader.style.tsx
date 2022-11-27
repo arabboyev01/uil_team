@@ -11,6 +11,8 @@ export default makeStyles(() => ({
         },
     },
     mainTextWrapper: {
-        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
     },
 }))

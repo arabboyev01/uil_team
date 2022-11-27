@@ -2,13 +2,11 @@ import {makeStyles} from "@mui/styles";
 
 export default makeStyles(() => ({
     pageTitleWrapper: {
-        position: "absolute",
-        top: "194px",
-        left: "40%",
         maxWidth: "500px",
+        margin: "194px auto 0 auto",
         '@media(max-width: 900px)': {
-            top: "104px",
-            left: "25%",
+            maxWidth: "350px",
+            marginTop: "104px",
         },
     },
     titleText: {
