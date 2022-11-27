@@ -6,6 +6,6 @@
 }
 body {
   font-family: 'Federo';
-  color: white;
+  color: white !important;
   background-color: black !important;
 }
