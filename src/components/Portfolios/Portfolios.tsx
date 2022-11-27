@@ -7,7 +7,7 @@ import Footer from "../../reusiable/Footer/Footer";
 export default function Portfolios(){
     return(
         <Box>
-            <PageHeader text="Bizning xizmatlar" image={mainBg} />
+            <PageHeader text="Bizning proyektlar" image={mainBg} />
             <PortfoliosComponents />
             <Testimonial />
             <Footer />

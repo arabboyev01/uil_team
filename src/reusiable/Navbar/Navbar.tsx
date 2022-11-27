@@ -21,7 +21,9 @@ export default function Navbar(){
                 <Box className={mobileMenu ? classes.mobileMenu : classes.collapseMenu}>
                     {NAV_DATA.map(item =>
                       <AnimatedText  key={item.id} delay={item.transition}>
+                          <Box className={classes.itemWrapper}>
                           <Link href={item.link}  className={router.pathname === item.link ? classes.activeNavItem : classes.navItem}>{item.name}</Link>
+                          </Box>
                       </AnimatedText>
                     )}
                 </Box>

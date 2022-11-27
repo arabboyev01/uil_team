@@ -28,7 +28,7 @@ export default makeStyles(() => ({
         fontWeight: 600,
         textDecoration: "none !important",
         '@media(max-width: 650px)': {
-            fontSize: "29px",
+            fontSize: "22px !important",
         },
     },
     collapseMenu: {
@@ -37,18 +37,24 @@ export default makeStyles(() => ({
         alignItems: "center",
         '@media(max-width: 650px)': {
             display: "none",
+            transition: " height 2s !important",
         }
     },
     mobileMenu: {
         display: "none",
-        position: "absolute",
-        right: "0",
-        top: "0",
-        height: "100vh",
-        width: "100%",
-        backgroundColor: "rgba(255, 255, 255, 0.5)",
         '@media(max-width: 650px)': {
-            display: "block",
+            overflow: "hidden",
+            position: "absolute",
+            right: "0",
+            top: "-250px",
+            left: 0,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            height: "calc(100vh + 250px)",
+            width: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.8)",
+            paddingTop: "290px !important",
         }
     },
     hamburgerMenu: {
@@ -63,19 +69,20 @@ export default makeStyles(() => ({
         cursor: "pointer",
         color: "#fff",
         textDecoration: "none",
+    },
+    itemWrapper: {
         '@media(max-width: 650px)': {
-            position: "absolute",
-            right: "90px",
-            top: "50px",
-        }
+            paddingTop: "20px !important",
+        },
     },
     activeNavItem: {
-        margin: "0 20px",
         cursor: "pointer",
         color: "#bf0000",
         textDecoration: "none",
         '@media(max-width: 650px)': {
-            margin: "20px 0",
-        }
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+        },
     }
 }));

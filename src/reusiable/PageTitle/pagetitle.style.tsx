@@ -5,8 +5,8 @@ export default makeStyles(() => ({
         maxWidth: "500px",
         margin: "194px auto 0 auto",
         '@media(max-width: 900px)': {
-            maxWidth: "350px",
-            marginTop: "104px",
+            maxWidth: "435px",
+            marginTop: "84px",
         },
     },
     titleText: {
@@ -17,6 +17,7 @@ export default makeStyles(() => ({
         '@media(max-width: 650px)': {
             fontSize: "30px",
             lineHeight: "40px",
+            textAlign: "center",
         },
     },
 }))

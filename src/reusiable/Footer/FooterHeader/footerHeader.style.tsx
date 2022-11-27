@@ -9,9 +9,9 @@ export default makeStyles(() => ({
         margin: "0 auto",
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
-        padding: "100px 0",
+        padding: "30px 0",
         '@media(max-width: 1330px)': {
-            padding: "0 20px",
+            padding: "20px",
             gridTemplateColumns: "repeat(auto-fit, minmax(330px, 1fr))",
         },
     },
@@ -19,12 +19,18 @@ export default makeStyles(() => ({
         display: "flex",
         flexDirection: "column",
         alignItems: "start",
+        '@media(max-width: 650px)': {
+            paddingTop: "20px",
+        },
     },
     contactTitle: {
         paddingBottom: "42px",
         fontFamily: 'Federo',
         fontSize: "18px",
         fontWeight: 600,
+        '@media(max-width: 650px)': {
+            paddingBottom: "32px",
+        },
     },
     adress: {
         display: "flex",
