@@ -12,8 +12,8 @@ export default makeStyles(() => ({
     titleText: {
         fontFamily: 'Federo',
         fontWeight: 400,
-        fontSize: "50px",
-        lineHeight: "60px",
+        fontSize: "50px !important",
+        lineHeight: "60px !important",
         '@media(max-width: 650px)': {
             fontSize: "30px",
             lineHeight: "40px",

@@ -13,19 +13,19 @@ import Mentors from "../../reusiable/Mentors/Mentors";
 export  default function Home(){
     const classes = useStyles();
     return(
-        <Box>
-        <Box className={classes.homeWrapper}>
-            <Navbar />
-            <Hero />
-        </Box>
-        <Box>
-            <Services />
-            <Portfolios />
-            <Brochure data={BROCHURE_DATA}/>
-            <Mentors />
-            <Testimonial />
-            <Footer />
-        </Box>
-        </Box>
+        <>
+            <Box className={classes.homeWrapper}>
+                <Navbar />
+                <Hero />
+            </Box>
+            <Box>
+                <Services />
+                <Portfolios />
+                <Brochure data={BROCHURE_DATA}/>
+                <Mentors />
+                <Testimonial />
+                <Footer />
+            </Box>
+        </>
     )
 }
