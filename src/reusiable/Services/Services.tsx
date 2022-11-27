@@ -2,7 +2,7 @@ import {useContext} from "react";
 import {Box} from "@mui/system";
 import useStyles from "./services.style";
 import MainTitle from "../Title/Title";
-import {  SERVICE_DATA } from "./serviceData";
+import { SERVICE_DATA } from "./serviceData";
 import Image from "next/image";
 import {Typography} from "@mui/material";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';

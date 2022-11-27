@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import { useState} from "react";
 import {Box} from "@mui/system";
 import mainBg from "../../../public/assets/images/serviceBg.png";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";

@@ -1,7 +1,6 @@
 import {Box} from "@mui/system";
 import mainBg from "../../../public/assets/images/serviceBg.png";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";
-import Maps from "../../reusiable/Map/Map";
 import useStyles from "./contact.style"
 import Testimonial from "../../reusiable/Testemonial/Testimonial";
 import Footer from "../../reusiable/Footer/Footer";

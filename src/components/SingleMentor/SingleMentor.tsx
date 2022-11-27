@@ -1,6 +1,6 @@
 import useStyles from "./singlementor.style";
 import {Box} from "@mui/system";
-import {JSXElementConstructor, Key, ReactElement, ReactFragment, useState} from "react";
+import {useState} from "react";
 import saveData from "../../reusiable/SaveData";
 import {MENTORS_DATA} from "../../dumbData/dumbData";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";

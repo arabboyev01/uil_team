@@ -1,4 +1,3 @@
-import useStyles from "./services.style";
 import {Box} from "@mui/system";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";
 import mainBg from "../../../public/assets/images/serviceBg.png";
