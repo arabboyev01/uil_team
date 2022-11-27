@@ -1,7 +1,6 @@
 import {useState} from "react";
 import {Box} from "@mui/system";
 import useStyles from "./navbar.style";
-import {Typography} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import {NAV_DATA} from "./navData";
@@ -17,7 +16,7 @@ export default function Navbar(){
         <Box className={classes.navWrapper}>
             <Box className={classes.navContentWrapper}>
                 <AnimatedText delay='1'>
-                    <Typography className={classes.logo}>UIL.</Typography>
+                    <Link href="/" className={classes.logo}>UIL.</Link>
                 </AnimatedText>
                 <Box className={mobileMenu ? classes.mobileMenu : classes.collapseMenu}>
                     {NAV_DATA.map(item =>

@@ -1,5 +1,4 @@
 import {makeStyles} from "@mui/styles";
-import {theme} from "../../../theme";
 export default makeStyles(() => ({
     navWrapper: {
         background: "transparent",
@@ -27,6 +26,7 @@ export default makeStyles(() => ({
         fontSize: "44px !important",
         lineHeight: "45px !important",
         fontWeight: 600,
+        textDecoration: "none !important",
         '@media(max-width: 650px)': {
             fontSize: "29px",
         },
