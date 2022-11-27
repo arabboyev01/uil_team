@@ -27,6 +27,7 @@ export default makeStyles(() => ({
         lineHeight: "45px !important",
         fontWeight: 600,
         textDecoration: "none !important",
+        zIndex: 3,
         '@media(max-width: 650px)': {
             fontSize: "22px !important",
         },
@@ -44,7 +45,7 @@ export default makeStyles(() => ({
         display: "none",
         '@media(max-width: 650px)': {
             overflow: "hidden",
-            position: "absolute",
+            position: "fixed",
             right: "0",
             top: "-250px",
             left: 0,
@@ -53,8 +54,9 @@ export default makeStyles(() => ({
             alignItems: "center",
             height: "calc(100vh + 250px)",
             width: "100%",
-            backgroundColor: "rgba(0, 0, 0, 0.8)",
-            paddingTop: "290px !important",
+            backgroundColor: "rgba(0, 0, 0, 0.9)",
+            paddingTop: "390px !important",
+            zIndex: 2,
         }
     },
     hamburgerMenu: {
