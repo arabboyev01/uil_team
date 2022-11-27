@@ -34,8 +34,8 @@ export default makeStyles(() => ({
         },
     },
     itemTitle: {
-        fontSize: "36px",
-        lineHeight: "40px",
+        fontSize: "36px !important",
+        lineHeight: "40px !important",
         fontWeight: 400,
         fontFamily: 'Federo',
     },
@@ -43,14 +43,14 @@ export default makeStyles(() => ({
         objectFit: "cover",
     },
     itemdesc: {
-        fontSize: "18px",
+        fontSize: "18px !important",
         margin: "30px 0",
         fontFamily: 'Federo',
     },
     goBTn: {
         color: "#fff",
         textDecoration: "none",
-        fontSize: "20px",
+        fontSize: "20px !important",
         display: "flex",
         flexDirection: "row",
         alignItems: "center",

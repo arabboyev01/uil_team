@@ -11,7 +11,7 @@ export default makeStyles(() => ({
         },
     },
     activeItem: {
-        fontSize: "14px",
+        fontSize: "14px !important",
         fontWeight: 400,
         lineHeight: "36px",
         background: "#ddd",
@@ -21,7 +21,7 @@ export default makeStyles(() => ({
         cursor: "pointer",
     },
     item: {
-        fontSize: "14px",
+        fontSize: "14px !important",
         fontWeight: 400,
         lineHeight: "36px",
         padding: "10px 0 10px 20px",
@@ -42,21 +42,21 @@ export default makeStyles(() => ({
         padding: "40px 0",
     },
     title1: {
-        fontSize: "28px",
-        lineHeight: "46px",
+        fontSize: "28px !important",
+        lineHeight: "46px !important",
         textAlign: "start",
         fontFamily: 'Federo',
     },
     title: {
-        fontSize: "34px",
-        lineHeight: "46px",
+        fontSize: "34px !important",
+        lineHeight: "46px !important",
         textAlign: "center",
         fontFamily: 'Federo',
     },
     call: {
         color: "#fff",
-        fontSize: "20px",
-        lineHeight: "34px",
+        fontSize: "20px !important",
+        lineHeight: "34px !important",
         textDecoration: "none",
     },
 }))

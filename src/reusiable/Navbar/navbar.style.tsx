@@ -24,8 +24,8 @@ export default makeStyles(() => ({
     },
     logo: {
         color: "#ccc",
-        fontSize: "44px",
-        lineHeight: "45px",
+        fontSize: "44px !important",
+        lineHeight: "45px !important",
         fontWeight: 600,
         '@media(max-width: 650px)': {
             fontSize: "29px",
