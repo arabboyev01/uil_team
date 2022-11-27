@@ -7,5 +7,5 @@
 body {
   font-family: 'Federo';
   color: white;
-  background: black;
+  background-color: black !important;
 }
