@@ -31,12 +31,12 @@ export default function Portfolios(){
                 <Box className={classes.portfolioItems}>
                     {PORTFOLIO_DATA.map(item =>
                         <Link href="/single-portfolio" style={{ textDecoration: 'none' }} key={item.id}>
-                        <Box
+                         <Box
                             onClick={() => handleGetSingleData(item.id)}
                             className={classes.portfolioItem}
                             style={{backgroundImage: `url(${item.image.src})`}}
-                        >
-                        </Box>
+                         >
+                         </Box>
                         </Link>
                     )}
                 </Box>
