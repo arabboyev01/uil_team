@@ -38,11 +38,6 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         desc: "Salom! Mening ismim Abbos va men internetda yashovchi narsalarni yaratishni yoqtiraman. Mening veb-saytlarni ishlab chiqishga bo'lgan qiziqishim 2017 yilda o'zimning ijtimoiy veb-saytlarim mavzularini yaratishga qaror qilganimda boshlangan edi - ma'lum bo'lishicha, maxsus reblog tugmachasini buzish menga HTML va CSS haqida ko'p narsalarni o'rgatgan!\n" +
             "\n" +
             "Bugungi kunga shoshiling va men reklama agentligida, startapda, yirik korporatsiyada va talabalar boshchiligidagi dizayn studiyasida ishlash sharafiga muyassar bo'ldim. Bugungi kunda mening asosiy e'tiborim turli mijozlar uchun Upstatement-da qulay, inklyuziv mahsulotlar va raqamli tajribalarni yaratishdir. ",
-        skills: [
-            {
-                name: '',
-            }
-        ],
     },
     {
         id: 1,
@@ -52,23 +47,6 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         bgImage: image2,
         job: "Frontend Dasturchi",
         desc: "",
-        skills: [
-            {
-                type: 'Javascript',
-            },
-            {
-                type: 'Typescript',
-            },
-            {
-                type: 'Next Js',
-            },
-            {
-                type: 'React Js',
-            },
-            {
-                type: 'React Native',
-            },
-        ],
     },
     {
         id: 2,
@@ -78,11 +56,6 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         bgImage: image3,
         job: "Frontend Dasturchi",
         desc: "",
-        skills: [
-            {
-                name: '',
-            }
-        ],
     },
     {
         id: 3,
@@ -92,11 +65,6 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         bgImage: image4,
         job: "Frontend Dasturchi",
         desc: "",
-        skills: [
-            {
-                name: '',
-            }
-        ],
     },
 ]
 

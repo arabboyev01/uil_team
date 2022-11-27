@@ -36,7 +36,6 @@ export interface MENTORS_DATA_TYPES {
     bgImage: any,
     job: string,
     desc: string,
-    skills: any,
 }
 export interface EFFORT_DATA_TYPES  {
     id: number,
