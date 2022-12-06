@@ -6,8 +6,8 @@ export default function Maps(){
     return(
         <Box className={classes.mapWrapper}>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1425.7148267451917!2d72.3609905043433!3d40.75214782389496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bcedab36235829%3A0x35ca12ac9cf910c2!2sMovarounnahr%20School!5e0!3m2!1sen!2s!4v1669217595204!5m2!1sen!2s"
-                style={{border:0}} width="330" height="370" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.5691529357596!2d72.35905072067553!3d40.74895826512224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bced630e0f4795%3A0xf72460c2369068a8!2sDigital%20City!5e0!3m2!1sen!2s!4v1670316159049!5m2!1sen!2s"
+                height="370"  loading="lazy" style={{width: "330px"}}
                 referrerPolicy="no-referrer-when-downgrade">
             </iframe>
         </Box>
