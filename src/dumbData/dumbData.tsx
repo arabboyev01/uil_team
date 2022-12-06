@@ -1,18 +1,12 @@
 import brochure1 from "../../public/assets/images/about-brochure.png";
 import brochure2 from "../../public/assets/images/happy-customers.png";
 import mentor1 from "../../public/assets/mentors/mentor1.jpg"
-import mentor2 from "../../public/assets/mentors/mentor2.png"
-import mentor3 from "../../public/assets/mentors/mentor3.png"
-import mentor4 from "../../public/assets/mentors/mentor4.png"
 import {CONTACT_DATA_TYPES, EFFORT_DATA_TYPES, MENTORS_DATA_TYPES} from "../../types";
 import mobileIcon from "../../public/assets/icons/phone.png";
 import laptopIcon from "../../public/assets/icons/laptop.png";
 import testingIcon from "../../public/assets/icons/testing.png";
 import designIcon from "../../public/assets/icons/design.png";
 import image1 from "../../public/assets/services/web.png";
-import image2 from "../../public/assets/services/mobile.png";
-import image3 from "../../public/assets/services/dizayn.png";
-import image4 from "../../public/assets/services/social-marketing.png";
 export const ABOUT_BROCHURE = {
     subTitle: "Qisqa tanishtiruv.",
     title: "Eng ilg'or Software agentstva va IT yechim albatta UILda.",
@@ -38,33 +32,6 @@ export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
         desc: "Salom! Mening ismim Abbos va men internetda yashovchi narsalarni yaratishni yoqtiraman. Mening veb-saytlarni ishlab chiqishga bo'lgan qiziqishim 2017 yilda o'zimning ijtimoiy veb-saytlarim mavzularini yaratishga qaror qilganimda boshlangan edi - ma'lum bo'lishicha, maxsus reblog tugmachasini buzish menga HTML va CSS haqida ko'p narsalarni o'rgatgan!\n" +
             "\n" +
             "Bugungi kunga shoshiling va men reklama agentligida, startapda, yirik korporatsiyada va talabalar boshchiligidagi dizayn studiyasida ishlash sharafiga muyassar bo'ldim. Bugungi kunda mening asosiy e'tiborim turli mijozlar uchun Upstatement-da qulay, inklyuziv mahsulotlar va raqamli tajribalarni yaratishdir. ",
-    },
-    {
-        id: 1,
-        name: "Abdulboriy Nomonov",
-        image: mentor2,
-        category: 1,
-        bgImage: image2,
-        job: "Frontend Dasturchi",
-        desc: "",
-    },
-    {
-        id: 2,
-        name: "Behzodbek  Arabboev",
-        image: mentor3,
-        category: 2,
-        bgImage: image3,
-        job: "Frontend Dasturchi",
-        desc: "",
-    },
-    {
-        id: 3,
-        name: "Umidjon Xusniddin o'g'li",
-        image: mentor4,
-        category: 3,
-        bgImage: image4,
-        job: "Frontend Dasturchi",
-        desc: "",
     },
 ]
 
