@@ -1,5 +1,6 @@
 import {makeStyles} from "@mui/styles";
 import dot from "../../../../public/assets/icons/dots.png";
+
 export default makeStyles(() => ({
     contactInfoWrapper: {
         width: "100%",

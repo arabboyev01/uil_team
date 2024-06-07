@@ -1,7 +1,6 @@
 import useStyles from "./singlementor.style";
 import {Box} from "@mui/system";
 import {useCallback, useEffect, useState} from "react";
-import saveData from "../../reusiable/SaveData";
 import {MENTORS_DATA} from "../../dumbData/dumbData";
 import PageHeader from "../../reusiable/PageHeader/PageHeader";
 import Image from "next/image";
@@ -10,10 +9,10 @@ import Footer from "../../reusiable/Footer/Footer";
 import { useRouter } from "next/router";
 import { MENTORS_DATA_TYPES } from "../../../types";
 
-export default function SingleMentor({data}: any) {
+export default function SingleMentor() {
     const { query: { id }} = useRouter()
 
-    const classes = useStyles();
+    const classes = useStyles()
     const [mainData, setMainData] = useState<null|MENTORS_DATA_TYPES| any>(null)
 
     const makeFilterData = useCallback(() => {
