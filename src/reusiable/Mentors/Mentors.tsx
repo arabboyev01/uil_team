@@ -5,16 +5,21 @@ import MainTitle from "../Title/Title";
 import {useContext} from "react";
 import CreateContextApi from "../../context/createContext";
 import Link from "next/link";
+import { useRouter } from "next/router";
 export default function Mentors(){
-    const classes = useStyles();
-    const ctxSetValue = useContext(CreateContextApi);
+    const classes = useStyles()
+
+    const ctxSetValue = useContext(CreateContextApi)
     const {changeMentor} = ctxSetValue;
+
     const handleSingleMentor = function(btnId: any){
         const filtered = MENTORS_DATA.filter(item => item.category === btnId);
         // @ts-ignore
         changeMentor(filtered);
-        window.localStorage.setItem("id",btnId);
+        window.localStorage.setItem("id",btnId)
     }
+
+    const router = useRouter()
     return(
         <Box className={classes.mentorsWrapper}>
             <Box className={classes.mentorContentWrapper}>
@@ -23,9 +28,9 @@ export default function Mentors(){
                 </Box>
                 <Box className={classes.mentors}>
                     {MENTORS_DATA.map(item =>
-                        <Link href="/mentor" key={item.id}>
+                        <div key={item.id} onClick={() => router.push(`/mentor/${item.name}`)}>
                            <Box onClick={() => handleSingleMentor(item.id)}  className={classes.mentor} style={{backgroundImage: `url(${item.image.src})`}}></Box>
-                        </Link>
+                        </div>
                     )}
                 </Box>
             </Box>

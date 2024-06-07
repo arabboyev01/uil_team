@@ -7,7 +7,7 @@ import PageTitle from "../PageTitle/PageTitle";
 export default function PageHeader(props: any){
     const classes = useStyles();
     return(
-            <Box className={classes.pageContentWrapper} style={{backgroundImage: `url(${props.image.src})`}}>
+            <Box className={classes.pageContentWrapper} style={{backgroundImage: `url(${props?.image?.src})`}}>
                 <Navbar />
                 <Box className={classes.mainTextWrapper}>
                     <AnimatedText>

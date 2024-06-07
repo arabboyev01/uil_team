@@ -16,7 +16,7 @@ export default function Navbar(){
         <Box className={classes.navWrapper}>
             <Box className={classes.navContentWrapper}>
                 <AnimatedText delay='1'>
-                    <Link href="/" className={classes.logo}>UIL.</Link>
+                    <Link href="/" className={classes.logo}>uzoutsorce</Link>
                 </AnimatedText>
                 <Box className={mobileMenu ? classes.mobileMenu : classes.collapseMenu}>
                     {NAV_DATA.map(item =>

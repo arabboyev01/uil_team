@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import {Box} from "@mui/system";
 import {useContext} from "react";
-import CreateContextApi from "../src/context/createContext";
-import SingleMentor from "../src/components/SingleMentor/SingleMentor";
+import CreateContextApi from "../../src/context/createContext";
+import SingleMentor from "../../src/components/SingleMentor/SingleMentor";
 
 export default function Home() {
     const ctxSetValue = useContext(CreateContextApi);
