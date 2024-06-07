@@ -7,6 +7,8 @@ import laptopIcon from "../../public/assets/icons/laptop.png";
 import testingIcon from "../../public/assets/icons/testing.png";
 import designIcon from "../../public/assets/icons/design.png";
 import image1 from "../../public/assets/services/web.png";
+import JasurbekImage from "../../public/assets/images/jasurbek.jpg"
+
 export const ABOUT_BROCHURE = {
     subTitle: "Qisqa tanishtiruv.",
     title: "Eng ilg'or Software agentstva va IT yechim albatta UILda.",
@@ -24,6 +26,17 @@ export const SECOND_ABOUT_BROCHURE = {
 export const MENTORS_DATA: MENTORS_DATA_TYPES[] = [
     {
         id: 0,
+        name: "Jasurbek Nabijonov",
+        image: JasurbekImage,
+        category: 0,
+        bgImage: image1,
+        job: "CEO company",
+        desc: "Salom! Mening ismim Jasurbek va men internetda yashovchi narsalarni yaratishni yoqtiraman. Mening veb-saytlarni ishlab chiqishga bo'lgan qiziqishim 2017 yilda o'zimning ijtimoiy veb-saytlarim mavzularini yaratishga qaror qilganimda boshlangan edi - ma'lum bo'lishicha, maxsus reblog tugmachasini buzish menga HTML va CSS haqida ko'p narsalarni o'rgatgan!\n" +
+            "\n" +
+            "Bugungi kunga shoshiling va men reklama agentligida, startapda, yirik korporatsiyada va talabalar boshchiligidagi dizayn studiyasida ishlash sharafiga muyassar bo'ldim. Bugungi kunda mening asosiy e'tiborim turli mijozlar uchun Upstatement-da qulay, inklyuziv mahsulotlar va raqamli tajribalarni yaratishdir. ",
+    },
+    {
+        id: 1,
         name: "Abbosbek Arabboev",
         image: mentor1,
         category: 0,
